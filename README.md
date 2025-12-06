@@ -1,5 +1,3 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # A Skin Disease Identification Using CNNs for Childcare Applications
 
 This repository contains the supplementary code and workflow for the manuscript:
@@ -17,38 +15,38 @@ The project focuses on classifying skin disease images into four classes using t
 This code is provided to enhance transparency and reproducibility in response to reviewer comments.
 
 ## 📁 Repository Structure
-```
 skin-disease-identification/
 ├── README.md
 ├── LICENSE
-├── requirements.txt # Python dependencies
-├── notebooks/
-│ ├── single_split.ipynb # Training and evaluation using single data split
-│ └── nested_5fold.ipynb # Nested 5-fold cross-validation workflow
-└── figures/
-  └── Skin.drawio.png # Workflow diagram illustrating project step
-
+├── requirements.txt
+├── figures/
+│ └── Skin.drawio.png
+└── notebooks/
+├── single_split.ipynb
+└── nested_5fold.ipynb
 
 ## 📁 Dataset Structure
-The dataset used in this study **cannot be publicly released** due to copyright and privacy restrictions.  
+
+The dataset used in this study **cannot be publicly released** due to copyright and privacy restrictions.
+
 However, the code is compatible with any dataset following the structure below:
-<pre>
 dataset/
 ├── train/
-│   ├── class1/
-│   ├── class2/
-│   ├── class3/
-│   └── class4/
+│ ├── class1/
+│ ├── class2/
+│ ├── class3/
+│ └── class4/
 ├── val/
-│   ├── class1/
-│   ├── class2/
-│   ├── class3/
-│   └── class4/
+│ ├── class1/
+│ ├── class2/
+│ ├── class3/
+│ └── class4/
 └── test/
-    ├── class1/
-    ├── class2/
-    ├── class3/
-    └── class4/
+├── class1/
+├── class2/
+├── class3/
+└── class4/
+text
 
 ## 💾 Model and Web Deployment Notes
 
@@ -66,14 +64,16 @@ The conceptual workflow of the project is shown below:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/skin-disease-identification.git
+git clone https://github.com/taykimgaik/skin-disease-identification.git
 cd skin-disease-identification/notebooks
-
-## 📄 Citation
+2.	Install dependencies:
+bash
+pip install -r requirements.txt
+3.	Run the notebooks in Jupyter or Google Colab.
+📄 Citation
 If you use this code in your research, please cite our paper (citation details will be added upon publication).
-
-## 📧 Contact
+📧 Contact
 For questions about this repository, please contact tay@uthm.edu.my.
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
