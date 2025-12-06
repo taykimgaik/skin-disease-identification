@@ -18,14 +18,16 @@ This code is provided to enhance transparency and reproducibility in response to
 
 ## 📁 Repository Structure
 ```
-project/
+skin-disease-identification/
 ├── README.md
+├── LICENSE
+├── requirements.txt # Python dependencies
 ├── notebooks/
 │ ├── single_split.ipynb # Training and evaluation using single data split
 │ └── nested_5fold.ipynb # Nested 5-fold cross-validation workflow
-├── requirements.txt # Python dependencies
 └── figures/
-└── workflow_diagram.png # Workflow diagram illustrating project steps
+  └── Skin.drawio.png # Workflow diagram illustrating project step
+
 
 ## 📁 Dataset Structure
 The dataset used in this study **cannot be publicly released** due to copyright and privacy restrictions.  
