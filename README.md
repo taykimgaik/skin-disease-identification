@@ -23,8 +23,8 @@ skin-disease-identification/
 ├── figures/
 │ └── Skin.drawio.png
 └── notebooks/
-├── single_split.ipynb
-└── nested_5fold.ipynb
+  ├── single_split.ipynb
+  └── nested_5fold.ipynb
 
 ## 📁 Dataset Structure
 
@@ -71,10 +71,10 @@ cd skin-disease-identification/notebooks
 bash
 pip install -r requirements.txt
 3.	Run the notebooks in Jupyter or Google Colab.
-📄 Citation
+## 📄 Citation
 If you use this code in your research, please cite our paper (citation details will be added upon publication).
-📧 Contact
+## 📧 Contact
 For questions about this repository, please contact tay@uthm.edu.my.
-📜 License
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
