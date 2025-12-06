@@ -15,6 +15,7 @@ The project focuses on classifying skin disease images into four classes using t
 This code is provided to enhance transparency and reproducibility in response to reviewer comments.
 
 ## 📁 Repository Structure
+```
 skin-disease-identification/
 ├── README.md
 ├── LICENSE
