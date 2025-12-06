@@ -69,11 +69,11 @@ The conceptual workflow of the project is shown below:
 git clone https://github.com/yourusername/skin-disease-identification.git
 cd skin-disease-identification/notebooks
 
-📄 Citation
+##📄 Citation
 If you use this code in your research, please cite our paper (citation details will be added upon publication).
 
-📧 Contact
+##📧 Contact
 For questions about this repository, please contact tay@uthm.edu.my.
 
-📜 License
+##📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
