@@ -71,10 +71,13 @@ cd skin-disease-identification/notebooks
 bash
 pip install -r requirements.txt
 3.	Run the notebooks in Jupyter or Google Colab.
+
 ## 📄 Citation
 If you use this code in your research, please cite our paper (citation details will be added upon publication).
+
 ## 📧 Contact
 For questions about this repository, please contact tay@uthm.edu.my.
+
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
