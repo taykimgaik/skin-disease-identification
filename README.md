@@ -77,4 +77,6 @@ For questions about this repository, please contact tay@uthm.edu.my.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/taykimgaik/skin-disease-identification/blob/main/LICENSE) file for details.
